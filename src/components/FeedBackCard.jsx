@@ -12,7 +12,7 @@ const btnVar = {
   },
 };
 
-const FeedbackCard = ({ content, name, title, img }) => (
+const FeedBackCard = ({ content, name, title, img }) => (
   <motion.div
     variants={btnVar}
     whileHover="hover"
@@ -41,4 +41,4 @@ const FeedbackCard = ({ content, name, title, img }) => (
   </motion.div>
 );
 
-export default FeedbackCard;
+export default FeedBackCard;
